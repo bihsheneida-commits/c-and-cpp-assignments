@@ -2,6 +2,7 @@
 using namespace std;
 //c++ secured
 int main(){
+	int* nullptr;
 	int* ptr=new int(10);
 	delete ptr;
 	ptr=nullptr;//prevent dangling pointer
@@ -10,5 +11,5 @@ int main(){
 	}else{
 		cout<<"pointer is null,cannot access memory."<<endl;
 	}
-	return0
+	return 0;
 }
