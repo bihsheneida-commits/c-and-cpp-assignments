@@ -1,4 +1,4 @@
-#include<iostraem>
+#include<iostream>
 using namespace std;
 //c++ use after free
 int main(){
